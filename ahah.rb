@@ -17,5 +17,6 @@ get '/name.?:format?' do
 end
 
 get '/stylesheets/application.css' do
+  content_type 'text/css', :charset => 'utf-8'
   sass :application
 end
