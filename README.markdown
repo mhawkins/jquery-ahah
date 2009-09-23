@@ -19,6 +19,7 @@ Ruby and the following Rubygems:
 From your console
 
    cd PATH_TO_APP
+   
    ruby ahah.rb
    
 Now in your browser, go to
