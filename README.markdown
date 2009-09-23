@@ -5,7 +5,7 @@ This is a super simple example of Asynchronous HTML and HTTP (AHAH) and progress
 
 ## via Github
 
-   git clone git@github.com:mhawkins/jquery-ahah.git
+   git clone git://github.com/mhawkins/jquery-ahah.git
    
 # REQUIREMENTS
 
