@@ -1,5 +1,8 @@
 $(document).ready(function(){
   $("form#greeter input[type=submit]").click(function() {  
+    // Hide the last notice
+    $(".notice").hide();
+    
     // Turn the form into an argument string
     var str = $("form#greeter").serialize();
        
