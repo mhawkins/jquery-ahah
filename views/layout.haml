@@ -6,9 +6,10 @@
     %link{ :href => "/stylesheets/print.css", :rel=> "stylesheet", :media=>'print', :type=> "text/css"}/
     /[if lt IE 8]
       %link{ :href => "/stylesheets/ie.css", :rel=> "stylesheet", :media=>'screen', :type=> "text/css"}/
-    %link{ :href => "/stylesheets/application.css", :rel=> "screen", :media=>'print', :type=> "text/css"}/
+    %link{ :href => "/stylesheets/application.css", :rel=> "stylesheet", :media=>'screen', :type=> "text/css"}/
     %script{ :src=>"/javascripts/jquery.js", :type=>"text/javascript"}
     %script{ :src=>"/javascripts/application.js", :type=>"text/javascript"}
   %body
     .container
-      = yield
+      .span-24
+        = yield

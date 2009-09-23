@@ -1,1 +1,9 @@
 %h1 JQuery AHAH
+
+.notice{:style => "display: none;"}
+
+%form{:id => "greeter", :action => "/name", :method => "get"}
+  %label{:for=>"name"} Name
+  %input{:type=>"text", :id=>"name", :name => "name"}/
+  
+  %input{:type=>"submit"}/
